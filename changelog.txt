@@ -1,0 +1,13 @@
+v2.0.0 What's new:
++ 64 Pads with 16 Layers
++ Pads and Layers Mixer
++ Pad EQ and Filter envelope
++ Layer MSEG Volume envelope 
++ Buses system with Mixer and Bus FX
++ Note Sequencer with patterns, randomization, recording...
++ New Browser with unlimited favorites, file filter...
++ huge number of smaller additions and improvements
+
+
+
+
