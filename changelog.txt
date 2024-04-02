@@ -1,3 +1,15 @@
+v2.0.1
++ [Slicer] a button to quickly add slices to pads, along with mode
++ [Preferences] choice to display the pattern in the host's pianoroll
+# improved behavior with a large number of short notes
+# improved behavior when the host is looping
+# fixed deletion of pattern with mouse middle click
+# fixed browser favorite rows overlapping
+# fixed loss of kitinfo when quick saving kit changes
+# fixed saving some imported kits
+# fixed loading/saving of kits that were created on a different system
+# fixed the last used path when saving the kit
+
 v2.0.0 What's new:
 + 64 Pads with 16 Layers
 + Pads and Layers Mixer
@@ -7,6 +19,3 @@ v2.0.0 What's new:
 + Note Sequencer with patterns, randomization, recording...
 + New Browser with unlimited favorites, file filter...
 + huge number of smaller additions and improvements
-
-
-
