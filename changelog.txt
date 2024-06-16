@@ -1,8 +1,71 @@
+v2.1.0
++ [Sequencer] 16/32 rows layout (synced with pads view)
++ [Sequencer] independent number of steps for each pattern
++ [Sequencer] adding samples directly on row name (same rules as on Pad)
++ [Sequencer] row polymeter
++ [Sequencer] per-step modulation for Pan, Pitch and FilterCut
++ [Sequencer] pattern button context menu (name + actions)
++ [Sequencer] renaming patterns (through the context menu)
++ [Sequencer] Alter action for seq row/pattern
++ [Sequencer] mirror note editing
++ [Sequencer] holding Shift while editing Velocities in the seq row editor allows editing of notes that Off
++ [Sequencer] increase/decrease/reset buttons in the seq row editor
++ [Sequencer] loading pattern file from external browser with drag&drop
++ [Sequencer] number of layers (after the row/pad name)
++ [Sequencer] shift notes up/down action
++ [Sequencer] Bar multiplication action (row menu)
++ [Sequencer] Pad reset (row menu)
++ [Sequencer] volume, pan and color of active row (Pad) on Sequencer page
++ [Sequencer] Shuffle to Pattern MIDI export
++ [Sequencer] mute sequencer output with midi note 11 (noteOn = mute)
++ [Sequencer] presets for some common note patterns (row menu and "PR" button)
++ [Slicer] Thru mode when populating pads
++ [Slicer] setting transients to zero-crossings (or as close as possible)
++ [Slicer] global attack/decay for slices, transferred to layer
++ [Pads] auto-slice when drag&drop a loop from the browser or externally holding Ctrl/Command, respecting Slicer state
++ [Layer] auto remove layer MSEG overlapping segment nodes
++ [Layer] prev/next buttons for active layer with midi cc learn capability
++ [Layer] if it is Slice, on Reload action slice range became start/end range
++ [Layer] when created with Slicer, temporarily Slice can be changed (prev/next buttons)
++ [EQ] smoothing of EQ parameters
++ [Preference] default samples/kits folder
++ [Preference] Browser default tab
++ [Browser] different ways of populating pads/layers (through the file context menu)
++ [Browser] populating pads (through the folder context menu)
++ [Browser] loop auto-slice to pads through the sample file menu, respecting Slicer state
++ [Browser] renaming favorites (through the context menu)
++ mute is also applied to the midi output of the muted row/pad
++ midi learn to more gui controls
++ changing pads layout while drag&drop when cursor is over the layout button
++ changing bottom tabs in Pad view while drag&drop when cursor is over the tab button
++ display of host tempo when in sync
+# pads layout follow active pad
+# Slicer pads filling mode "To All" changed to "From Active"
+# Slicer transient detection slightly improved 
+# Browser stopping file preview on loading
+# fixed midi select pad on play when sync is off
+# fixed sequencer play when sync is off
+# fixed Slicer prev file button midi learn
+# fixed vu-meter reading
+# fixed saving pattern and searching missing samples not using last used folder
+# fixed remembering Browser active tab
+# fixed Browser file selection when changing folders
+# fixed Browser file list focus on changing favorite folder
+
+v2.0.2
++ active pattern remembered in host state
+# fixed pad rendering crash when compressor is on
+# fixed sequencer loop play on x2/x4 speeds
+# fixed browser right arrow key on folders
+# fixed browser focus on opening
+# fixed layer multiedit pitch env toggle
+
 v2.0.1
 + [Slicer] a button to quickly add slices to pads, along with mode
 + [Preferences] choice to display the pattern in the host's pianoroll
-# improved behavior with a large number of short notes
-# improved behavior when the host is looping
+# improved seq behavior with a large number of short notes
+# improved seq behavior when the host is looping
+# improved mouse editing of mseg layer node
 # fixed deletion of pattern with mouse middle click
 # fixed browser favorite rows overlapping
 # fixed loss of kitinfo when quick saving kit changes
@@ -11,11 +74,11 @@ v2.0.1
 # fixed the last used path when saving the kit
 
 v2.0.0 What's new:
-+ 64 Pads with 16 Layers
-+ Pads and Layers Mixer
-+ Pad EQ and Filter envelope
-+ Layer MSEG Volume envelope 
-+ Buses system with Mixer and Bus FX
-+ Note Sequencer with patterns, randomization, recording...
-+ New Browser with unlimited favorites, file filter...
-+ huge number of smaller additions and improvements
+64 Pads with 16 Layers
+Pads and Layers Mixer
+Pad EQ and Filter envelope
+Layer MSEG Volume envelope 
+Buses system with Mixer and Bus FX
+Note Sequencer with patterns, randomization, recording...
+New Browser with unlimited favorites, file filter...
+huge number of smaller additions and improvements
