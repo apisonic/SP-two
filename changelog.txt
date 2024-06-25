@@ -1,3 +1,10 @@
+v2.1.1
+# improved eq parameters smoothing
+# improved mute/unmute smoothing
+# [Linux] fixed mouse interaction on pattern button
+# fixed display of keyboard/mouse tip for seq row
+# fixed ignoring default kit/sample folder from Preferences in some cases
+
 v2.1.0
 + [Sequencer] 16/32 rows layout (synced with pads view)
 + [Sequencer] independent number of steps for each pattern
