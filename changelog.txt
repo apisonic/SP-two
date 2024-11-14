@@ -1,3 +1,57 @@
+v2.2.0
++ GUI Themes aka Skins
++ Standalone App
++ AAX plugin format (Pro Tools)
++ [Skins] Dark and Light factory skins
++ [Skins] loading custom skins based on factory skins (see manual for more info)
++ [Standalone App] Audio/Midi I/O hardware selector
++ [Pad] Velocity Curve for individual Pad (Layer Velocity View), overrides global curve if active
++ [Pad] number of Cut/CutBy groups increased to 16
++ [Pad] setting Normalize and Channels on all layers through Pad's menu
++ [Pad] "Select All 64 Pads" added to pad group button menu
++ [Pad] Pad's trigger menu text follows the Preferences setting ShowOnPad
++ [Layer] play indicators for layers
++ [Layer] sample start humanization
++ [Layer] layers Normalize and Channels added to multi-editing
++ [Slicer] "Clear all Slices" added to Slicer menu
++ [Sequencer] save/load all 16 patterns as Pattern Bank (.speedbank)
++ [Sequencer] humanization for the row, if it is not turned on, global humanization is used instead
++ [Sequencer] more presets for seq row with visualization
++ [Sequencer] seq humanization of velocity and position added to midi export 
++ [Sequencer] more modes for random seq row/pattern action
++ [Sequencer] row editor menu for ramp, invert and random (10-50%) invert
++ [Sequencer] bar multiplication for all Rows in Pattern menu
++ [Sequencer] display seq row editor values on mouse over
++ [Sequencer] resetting seq note's velocity respects Preferences
++ [Sequencer] selected row/pattern action buttons are remembered in settings
++ [Sequencer] row selection using up/down arrow keys
++ [Sequencer] basic midi file import to pattern
++ [Browser] turning off autoload when changing the active Pad
++ [Browser] adding a layer to the next empty Pad through the sample context menu
++ [Windows] Direct2D for GUI
++ the window size and skin will be remembered in the plugin instance state
+# improved behavior of mouse wheel on Pitch knobs - inc/dec by 1 (or by cent with alt/option)
+# reorganized items in header menus
+# overhaul of some gui components and windows
+# fixed crash when using arrow keys in the sequencer
+# fixed crash when using direct outputs on both sends in parallel mode
+# fixed pad triggering by another pad (v2.1.0 regfression)
+# fixed seq timing when changing the pattern using a midi note
+# fixed seq polymeter behavior on pattern loop
+# fixed seq is muted after loop area if host loop is on
+# fixed seq pan/pitch/cut modulator behavior for repeating notes
+# fixed seq mirror editing for mods other then velocity
+# fixed seq midi eport for probability and muted rows
+# fixed beats (stretching) values when loading kit/pad at different bpm than when saving
+# fixed velocity curve slider saving state
+# fixed layer mseg change not visible as kit change
+# fixed pads group buttons misbehavior after reopening the gui
+# fixed use of default folders from Preferences
+# fixed display of the section name when the cursor is over certain controls
+# fixed setting the active mode in the seq row editor after reopening the plugin window
+# fixed behavior of the button for lowering the values in the seq row editor
+# fixed using layer mute/solo sometimes distorts the audio output after a certain time
+
 v2.1.1
 # improved eq parameters smoothing
 # improved mute/unmute smoothing
