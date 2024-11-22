@@ -1,3 +1,11 @@
+v2.2.1
+# fixed crash in Reaper (linux) when returning from offline
+# fixed crash (VST2) on skin change
+# fixed possible crash when using multiple instances
+# fixed mouse behavior on some menus
+# fixed browser starts playing on opening if sample file is selected
+# fixed save kit button (floppy) shows that the kit has been changed after loading the kit
+
 v2.2.0
 + GUI Themes aka Skins
 + Standalone App
