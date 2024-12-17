@@ -1,3 +1,14 @@
+v2.2.2
++ [Skins] more colors and graphic properties
++ [Standalone] added "Minimize" to window
+# fixed possible oddities in window resizing
+# fixed some skin related stuff
+# fixed locked pad behavior
+# fixed randomization of indirectly triggered drop
+# fixed double note when changing pattern at the start of host loop
+# fixed Geist import slice length
+# fixed setting Velocity section knobs to default when new instance in 16-pad view
+
 v2.2.1
 # fixed crash in Reaper (linux) when returning from offline
 # fixed crash (VST2) on skin change
