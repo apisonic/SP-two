@@ -1,10 +1,60 @@
+v2.3.0
++ [FX/EQ/SEND] menu with copy, paste, reset, save/load presets
++ [FX] fx chain with the ability to change the order with drag&drop
++ [FX] Dirty Filter type
++ [FX] Effect Comb Filter type
++ [FX] clipping indicator on Transients view
++ [SEND FX] send output with any type of send
++ [SEND FX] bus as send output
++ [SEND FX] Delay separate L and R time
++ [SEND FX] Delay ping-pong
++ [SEND FX] Reverb Room, Plate and Convolution algorithm, in addition to the old one (Simple)
++ [SEND FX] Reverb decay parameter (for some reverb types)
++ [SEND FX] Reverb high-pass filter
++ [EQ] on/off button for the entire EQ (not just individual bands) 
++ [EQ] Pre-FX / Post-FX switch (menu)
++ [EQ] alternate larger view of pad eq with more controls (PAD EQ / SENDS) tab
++ [EQ] band frequency display on header info label
++ [EQ mini] approximative waveform view visualizer (menu)
++ [BUS] mute, solo, width parameters
++ [BUS] mute, solo, width parameters
++ [BUS] bus renaming via context menu
++ [MASTER BUS] simple brickwall limiter
++ [Layer] MSEG node time display on header info label
++ [Layer] velocity editor slider context menu (min and max values)
++ [Sequencer] seq row slider context menu (value entry and more)
++ [Preferences] default impulse response files folder
++ [Preferences] option to delete seq note with RMB or LMB
++ [Preferences] additional option of signaling changes to the host
++ [Skins] meter style property (flat/bars)
++ [Skins] more colors properties (see user manual)
++ "solo exclusive" switch for the solo button (button context menu)
++ pad render file save with right-click on wave icon,
++ pattern to midi file save with right-click on notes icon
++ in 32 pads view right click on FX to on/off
+# improved sequencer timing for modulations
+# improved filter envelope
+# improved timing for cut/cutby groups
+# improved midi learn for controls in Cubase
+# manual input of values for the knob set to accept milliseconds where appropriate
+# adjusted default states for individual FXs
+# sends moved to (PAD EQ / SENDS) tab
+# rearranged seq row context menu
+# many GUI visual tweaks
+# fixed crash when dropping an unsupported audio file on Slicer
+# fixed seq mod parameters after pad swap
+# fixed Layer preview play
+# fixed browser file icon when extension is in uppercase letters
+# fixed repaint of pads when manually changed midi note
+
+
 v2.2.2
 + [Skins] more colors and graphic properties
 + [Standalone] added "Minimize" to window
 # fixed possible oddities in window resizing
 # fixed some skin related stuff
 # fixed locked pad behavior
-# fixed randomization of indirectly triggered drop
+# fixed randomization of indirectly triggered pad
 # fixed double note when changing pattern at the start of host loop
 # fixed Geist import slice length
 # fixed setting Velocity section knobs to default when new instance in 16-pad view
