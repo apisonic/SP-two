@@ -1,3 +1,8 @@
+v2.3.1
+# fixed AU plugin not loading in Logic and GarageBand
+# fixed pad's vu meter coloring on skin change
+# fixed flatKnob skin property behavior
+
 v2.3.0
 + [FX/EQ/SEND] menu with copy, paste, reset, save/load presets
 + [FX] fx chain with the ability to change the order with drag&drop
@@ -16,7 +21,6 @@ v2.3.0
 + [EQ] alternate larger view of pad eq with more controls (PAD EQ / SENDS) tab
 + [EQ] band frequency display on header info label
 + [EQ mini] approximative waveform view visualizer (menu)
-+ [BUS] mute, solo, width parameters
 + [BUS] mute, solo, width parameters
 + [BUS] bus renaming via context menu
 + [MASTER BUS] simple brickwall limiter
