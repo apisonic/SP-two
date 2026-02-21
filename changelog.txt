@@ -1,6 +1,11 @@
+2.3.4
+# fixed missing files dialog
+# fixed display of some knob values
+# fixed macos pkg installer asking for Rosetta
+
 2.3.3
 # fixed behavior when using many plugin instances
-# fixed fixed Bus output selection
+# fixed Bus output selection
 # fixed display of direct output on Pad
 # fixed Light skins colors
 
