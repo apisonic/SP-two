@@ -1,9 +1,34 @@
-2.3.4
+v2.4.0
++ [SLICER] new improved onset detector
++ [SLICER] high freq content for detector toggle
++ [SLICER] Manual mode
++ [SLICER] drag to export groove as midi
++ [SLICER] delete marker with right click
++ [SLICER] selecting/playing slices with midi notes
++ [SLICER] first slice midi note slider
++ [SLICER] select slice with midi note toggle
++ [SLICER] play slice on mouse click toggle
++ [SLICER/LAYER] snap to zero cross on start/end move
++ [SLICER/LAYER] REX audio format read (Windows/macOS)
++ [Preferences] extended width toggle (right panel inside/outside)
++ drag&drop from arrangement/pool in hosts using vst-xml (Cubase, etc.)
++ more Keyboard/Mouse Tooltips
+# reorganized Header menus
+# kit menu (floppy icon) - left click menu, right click autosave/menu
+# removed Slicer autoplay, play, stop
+# fixed Slicer BPM mode
+# fixed adding/deleting slice on edge cases
+# fixed velocity slope slider behavior for default state
+# fixed Layer triggering in the velocity range respects the velocity curve
+# fixed vol/pan pad info label on Sequencer page
+# fixed menu behavior on some hosts
+
+v2.3.4
 # fixed missing files dialog
 # fixed display of some knob values
 # fixed macos pkg installer asking for Rosetta
 
-2.3.3
+v2.3.3
 # fixed behavior when using many plugin instances
 # fixed Bus output selection
 # fixed display of direct output on Pad
